@@ -1,0 +1,49 @@
+{% extends 'basic.html' %}
+{% block title %} About {% endblock title %}
+{% block body %}
+{% load static %}
+ <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p style="text-align: justify;">
+            Hello!
+            <br>
+            I'm Asmita Sambhaji Jadhav, currently pursuing a Bachelor's in Technology in Computer Science and Engineering at Sinhgad College of Engineering. My journey into the world of technology has been defined by a deep passion for coding and problem-solving. With expertise in Java, Python, and operating systems, I thrive on diving into challenging projects and hackathons where I can innovate and create impactful solutions. On platforms like HackerRank, I consistently push my limits, earning a high rating by tackling complex coding problems head-on. As a university ranker, I'm committed to continuous learning and growth, always seeking to unravel the complexities of programming through hands-on experience and academic excellence. Let's connect and explore the endless possibilities of technology together!
+          </p>
+                  </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static 'assets/img/IMG_20230523_124207.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Power-Programmer &amp; Web Developer.</h3>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>7 May 2003</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9156796026</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pandharpur, Maharastra</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>asmitajadhav049@gmail.com</span></li>
+                  
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+{% endblock body %}
